@@ -1,0 +1,21 @@
+Package: achtergrondwaarden
+Title: Calculates background threshold concentrations for soil policy
+Version: 1.0.0
+Authors@R: 
+    person(given = "Job",
+           family = "Spijker",
+           role = c("aut", "cre"),
+           email = "job.spijker@rivm.nl")
+Description: In Dutch soil policy the concept of background threshold concentrations is based on percentile values of soil measurements.  This package contains functions to obtain such values, including confidence intervals.
+License: GPL-3
+Depends: R (>= 3.2.0), fitdistrplus, boot, ggplot2, magrittr, stringr
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown,
+    sp,
+    binom
+VignetteBuilder: knitr
+RoxygenNote: 7.0.2

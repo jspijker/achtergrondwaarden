@@ -1,0 +1,12 @@
+doc
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.swp
+inst/doc
+*.Rproj
+*.html
+prototype.R
+
+
